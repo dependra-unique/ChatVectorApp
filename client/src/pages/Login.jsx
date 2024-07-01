@@ -72,7 +72,12 @@ function Login() {
                onClick={toggleLogin}
                >Sign up</Button>
             </form>
-          </>) : (<span>register</span>)
+          </>) : (
+            <>
+              <Typography variant='h5' >Sign Up</Typography>
+              
+            </>
+          )
         }
       </Paper>
     </Container>
